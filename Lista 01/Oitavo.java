@@ -19,15 +19,35 @@ public class Oitavo {
         if(tempchoice == 1){
             if(tempchoice2 == 2){
                 temp = temp *(18/10) + 32;
-                System.out.println("A conversão deu "+temp+" Graus Fahrenheit");
+                System.out.println("A conversão deu "+temp+" Graus Fahrenheit.");
             }
             if(tempchoice == 3){
-
+                temp = temp + 273;
+                System.out.println("A conversão deu "+temp+" Graus Kelvin.");
             }
+        }
         if(tempchoice == 2){
-            
+            if(tempchoice2 == 1){
+                temp=temp/(18/10)-32;
+                System.out.println("A conversão deu "+temp+" Graus Celsius.");
+            }
+            if(tempchoice == 3){
+                temp= temp/(18/10)+305;
+                System.out.println("A conversão deu "+temp+ " Graus kelvin.");
+            }
+        }    
+        if(tempchoice == 3){
+            if(tempchoice2 == 1){
+                temp = temp -273;
+                System.out.println("A conversão deu "+temp+" Graus Celcius.");
+            }
+            if(tempchoice == 2){
+                temp= (18/10)*(temp-273)+32;
+                System.out.println("A conversão deu "+temp+" Graus Fahrenheit.");
+            }
         }
-        }
+        
+        input.close();
 
     }
 }
