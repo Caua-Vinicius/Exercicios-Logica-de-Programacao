@@ -15,6 +15,7 @@ public class Segundo {
         n2 = input.nextFloat();
 
         
+        
         soma = n1 + n2;
 
         System.out.println("O resultado da soma foi: " + soma);
