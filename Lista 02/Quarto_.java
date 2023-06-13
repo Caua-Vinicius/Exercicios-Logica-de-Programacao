@@ -12,6 +12,7 @@ public class Quarto_ {
             resultado = number * contador;
             System.out.println(number + " * "+ contador + " = "+ resultado);
         }
+        
         input.close();
     }
 }
